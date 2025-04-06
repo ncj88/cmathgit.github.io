@@ -1,0 +1,20 @@
+# more media
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.mov
+*.flac
+*.flp
+*.png
+*.jpg
+*.jpeg
+*.ico
+*.gif
+.cursorignore
+.env
+env/** */
+venv/** */
