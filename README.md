@@ -1,4 +1,5 @@
-# ai-2027-ad
+# Anchored Times Ministry (2027)
+README for [anchoredtimesministry2027.html]()
 Biblical Polemic & Response to AI-2027 Forecasts
 
 **Disclaimer:**
