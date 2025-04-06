@@ -37,12 +37,22 @@ This site is primarily built using:
 You can view the live site directly by visiting:
 [https://cmathgit.github.io/](https://cmathgit.github.io/)
 
+
+# Limitation of Liability Statement
+
+For a complete Limitation of Liability Statement, please visit my [website](https://cmathgit.github.io/cruzgmacias-cv.html).
+
+# Statement of Copyright Protection
+
+For a complete Statement of Copyright Protection, please visit my [website](https://cmathgit.github.io/crossofthemessiah.html).
+
 ## Repository Contents
 
 *   `index.html`: The main landing page.
 *   `anchoredtimesministry2027.html`: Anchored Times Ministry page.
 *   `cruzgmacias-cv.html`: Personal Curriculum Vitae page.
 *   `crossofthemessiah.html`: Music Portfolio page.
+
 
 # Personal CV
 README for [cruzgmacias-cv.html](https://cmathgit.github.io/cruzgmacias-cv.html)
