@@ -124,6 +124,29 @@
           text-align: center;
         }
 
+        .image-gallery {
+            margin-top: 2em; /* Space above the images */
+            display: flex; /* Arrange images in a row */
+            justify-content: space-around; /* Space them out */
+            align-items: center; /* Align vertically */
+            flex-wrap: wrap; /* Allow wrapping on small screens */
+            gap: 1em; /* Space between images if they wrap */
+        }
+
+        .image-gallery img {
+            max-width: 150px; /* Limit image width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 5px; /* Optional: rounded corners */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+            object-fit: cover; /* Ensures images fill the space nicely if dimensions vary */
+        }
+
+        /* Responsive adjustments for images if needed */
+        @media (max-width: 600px) {
+            .image-gallery img {
+                max-width: 100px; /* Smaller images on smaller screens */
+            }
+        }
 
     </style>
 </head>
@@ -131,6 +154,13 @@
 
     <div class="container">
         <h1>Welcome to the GitHub Site of Cruz Macias</h1>
+
+        <!-- Add image container here -->
+        <div class="image-gallery">
+          <img src="https://1drv.ms/i/c/351e429395ffd928/IQSgpqTaj2pLQaNvmiYqJAGbAYepoLAOwJkJm7wnB2WBlCo" alt="Description of photo 1">
+          <img src="https://1drv.ms/i/c/351e429395ffd928/IQRk-UYX8eTOTrUsL0zgL_15AVAajL3wiPvkrnIgv0tjH3U" alt="Description of photo 2">
+          <img src="https://1drv.ms/i/c/351e429395ffd928/IQTD0BrNt8xkS7x3afHYYCX_AYw0CSdn5FZ73QkFnqXVvy0" alt="Description of photo 3">
+        </div>
 
         <p>
             Please visit my other pages:
@@ -146,8 +176,7 @@
             <!-- Link to the Music Portfolio page -->
             <a href="crossofthemessiah/index.html" class="button-link">Music Portfolio</a>
         </div>
-
-        
+  
 <footer class="footer-container">
   <p>Find me on social media.</p>
   <div class="footer-grid-container">
