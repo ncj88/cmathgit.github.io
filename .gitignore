@@ -12,9 +12,9 @@
 *.png
 *.jpg
 *.jpeg
-*.ico
 *.gif
 .cursorignore
 .env
 env/** */
 venv/** */
+gen_favicon.py
